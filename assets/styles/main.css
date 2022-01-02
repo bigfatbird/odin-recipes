@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&family=Roboto:wght@300;400;900&display=swap');
 
 * {
   color: #171717;
@@ -31,6 +31,11 @@ a {
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
+}
+
+li a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 a:hover {
