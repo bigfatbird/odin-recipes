@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&family=Roboto:wght@900&display=swap');
 
 * {
   color: #171717;
@@ -7,21 +7,36 @@
   font-size: 16px;
 }
 
-p, li, h3, h1 {
+p, li {
   font-size: 1.5em;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
 }
 
 a {
-  color: red;
-  border: 1px solid blue;
+  color: black;
+  text-decoration: none;
+  border: 1px solid #628dd1;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
 }
 
 a:hover {
-  color: #56bf43;
-  background-color: #ad5a5a;
+  color: #fff;
+  background-color: #628dd1;
+  border: 1px solid #000;
 }
 
 li {
